@@ -11147,6 +11147,7 @@ text-align: left}
     display: inline-block;
     height: 280px;
     overflow-y: scroll;
+    overflow-x: hidden;
     background: #0f254f;
     border-left: 3px solid orange;
     color: white;
@@ -11869,7 +11870,7 @@ text-align: left}
         padding-top: 5px;
         margin-left: 23px;
         font-weight: 500;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 0;
         line-height: 0.65rem; }
     .homepage .menu-item .manager-thumbnail-name {
@@ -11894,7 +11895,7 @@ text-align: left}
         margin-left: 23px; }
         @media only screen and (min-width: 1201px) and (max-width: 1366px) {
           .homepage .menu-item .manager-thumbnail-name p {
-            font-size: 11px; } }
+            font-size: 10px; } }
         @media only screen and (min-width: 992px) and (max-width: 1200px) {
           .homepage .menu-item .manager-thumbnail-name p {
             font-size: 10px;
@@ -16494,7 +16495,7 @@ td:nth-child(4).homepage-list-view {
     background-image: linear-gradient(to bottom, #eb9a0d 0%, #e57709 51%, #eb9a0d 100%);
 	min-width:17%; }
     .nl-live-score-contest-table .rank__no span {
-      font-size: 12px;
+      font-size: 20px;
       line-height: 1.2;
       padding: 0 .25rem;
       font-weight: 600; }
@@ -16513,7 +16514,9 @@ td:nth-child(4).homepage-list-view {
     padding: 0.25rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1; }
+    flex: 1; 
+    overflow: hidden;
+    white-space: nowrap;}
     .nl-live-score-contest-table .rank__title p {
       margin-bottom: 0;
       font-size: 12px;
